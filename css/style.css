@@ -62,7 +62,7 @@ footer a:hover{
     height: 100%;
     padding-bottom: 80px;
 
-    background-image: url("/images/pinkmountainsbackground.jpg");
+    background-image: url("../images/pinkmountainsbackground.jpg");
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
