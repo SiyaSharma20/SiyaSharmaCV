@@ -1,1 +1,301 @@
+body {
+    margin: 0;
+    
+}
+
+nav {
+    background-color:#f67280;
+    width: 100%;
+    display: flex;
+
+    justify-content: right;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-family: "Cinzel Decorative", cursive;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+    color: #f67280;
+    border-radius: 10px;
+}
+
+footer{
+    background-color:#f67280;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+}
+
+footer a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+    margin: 10px 10px;
+    text-decoration: none;
+    font-family: "Cinzel Decorative", cursive;
+}
+
+footer a:hover{
+    background-color: aliceblue;
+    color: #f67280;
+    border-radius: 10px;
+}
+
+.intro{
+    font-size: large;
+    background-color: #c06c84;
+    margin: 0px;
+    padding: 10px;
+    font-family: "Trirong";
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 80px;
+
+    background-image: url("/images/pinkmountainsbackground.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+
+.intro h1{
+    font-family: "Cinzel Decorative", cursive;
+    color: #f67280;
+    font-weight: 900;
+    font-size: xx-large;
+    
+}
+
+.info a{
+    font-size: 20px;
+    font-weight: normal;
+    color: #7c52a3;
+    /*padding: 10px 10px; */
+    margin: 10px 10px;
+    text-decoration: none;
+
+
+}
+
+.info a:hover{
+    background-color: rgb(131, 174, 199);
+    color: #fcf6f8;
+    border-radius: 10px;
+}
+
+.info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    
+}
+
+.info h2{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: "Cinzel Decorative", cursive;
+    
+    color: #f67280;
+    font-weight: bold;
+}
+
+hr{
+    border: none;
+    border-top: dotted 3px;
+    width: 30%;
+}
+
+.cloud1{
+    background: transparent;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 20%;
+}
+
+.cloud2{
+    background: transparent;
+    position: absolute;
+    top: 215px;
+    right: 100px;
+    border: 0px solid;
+    width: 20%;
+}
+
+.siyapic{
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+
+.card {
+ 
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 650px ;
+    display: grid;
+    border: 1px;
+    border-radius: 10px;
+    margin: 60px;
+    background-color: #a30124a2;
+    float: left;
+    overflow: hidden;
+    margin-right: 80px;
+    
+}
+
+.card img{
+   
+  border-radius: 5px 5px 0 0;
+  height: 300px;
+  image-rendering: auto;
+}
+
+
+.card:hover {
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.2);
+}
+
+
+.three-col{
+
+    width: fit-content;
+    
+}
+
+
+.card li{
+    display: flex;
+    text-align: left;
+    padding-top: 0%;
+    font-family: Trirong;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.card dt{
+    font-family: Trirong;
+    font-style: italic;
+    display: flex;
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+    
+}
+
+.card dd{
+    font-family: Trirong;
+   font-size: medium;
+}
+
+.card a{
+    font-family: Trirong;
+    color: #f7dfe7;
+}
+
+.container{
+    
+    padding: 2px 16px;
+   
+    height: auto;
+}
+
+.container h4{
+    display: flexbox;
+    padding-top: 0%;
+    font-family: Trirong;
+    text-align: center;
+    font-size: large;
+}
+
+.cardcontact{
+    width: 700px;
+    height: 500px;
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+   
+    background-color: #c06c84;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: grid;
+  font-family: Trirong;
+  font-weight: bold;
+}
+
+input[type=submit] {
+  background-color: rgb(167, 165, 165);
+  color: rgb(0, 0, 0);
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+  font-family: Trirong;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #f67280
+}
+
+.contactinfo h1{
+    font-size:xx-large;
+    font-weight: bold;
+    color:#000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.contactinfo p{
+    text-align: center;
+    text-decoration:none;
+    font-family: Trirong;
+    color:#c06c84;
+    font-weight: bold;
+}
+
+.contactinfo{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+
 
